@@ -1,0 +1,164 @@
+html, body {
+	background: #008b99; /* darker cyan-blue main background */
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(50, 50, 70); /* neutral dark gray for headings */
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 110%; /* slightly larger text */
+	width: 85%;     
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: white; /* content area white */
+	line-height: 1.9;
+}
+h1 {
+	font: 3.5em Verdana, Geneva, sans-serif;
+	margin-bottom: .5em;
+	color: rgb(30, 60, 90); /* subtle complementary shade for h1 */
+}
+h2 {
+	font: 2.3em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .3em;
+}
+h3 {
+	font-size: 1.4em;
+}
+p {
+	margin-bottom: 1.2em;
+}
+a {
+	color: rgb(0, 120, 180); /* accent blue for links */
+}
+a:hover {
+	color: rgb(0, 90, 140);
+}
+pre {
+	font-size: 1.5em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #008b99;
+	background: #333;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+dt {
+	font-style: italic;
+	font-size:1.3em;
+}
+dd {
+	margin-bottom: 1.6em;
+}
+table {
+	margin-top: 1.2em;
+}
+caption {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: left;
+}
+td, th {
+	padding: 12px;
+}
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .3em;
+	border-bottom: 1px solid #ccc;
+}
+aside {
+	padding: 1em;
+	background: rgb(70, 70, 90); /* darker neutral tone */
+	color: white;
+	margin-bottom: 1em;
+}
+aside h4 {
+	color: white;
+}
+footer {
+	border-top: 1px solid #ccc;
+	text-align: center;
+	font-size: .9em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+blockquote {
+	font-style: italic;
+}
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+
+.gallery figure {
+  text-align: center;
+  max-width: 330px;
+}
+
+.gallery figcaption {
+  margin-top: 10px;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+details {
+  margin: 25px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.movie-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.movie-gallery figure {
+  text-align: center;
+  max-width: 200px;
+}
+
+.movie-gallery figcaption {
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 6px;
+}
